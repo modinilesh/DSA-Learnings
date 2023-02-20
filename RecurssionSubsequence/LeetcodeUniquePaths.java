@@ -9,7 +9,7 @@ public class LeetcodeUniquePaths {
 			System.out.println(ans);
 			return 1;
 		}
-		else if(i > m || j > n) return 0;
+		else if(i > m || j > n || i == 0) return 0;
 		else {
 			int count = 0;
 			count += mazePath(i, j+1, m, n, ans+"H");
@@ -24,7 +24,7 @@ public class LeetcodeUniquePaths {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println(mazePath(0,0, 50,8, ""));
+		System.out.println(mazePath(0,0, 4,4, ""));
 
 	}
 

@@ -79,9 +79,7 @@ public class Sudoku {
 			System.out.println(Arrays.toString(a));
 		}
 			
-			System.out.println("------------------------------------");
-		
-		
+		System.out.println("------------------------------------");
 		
 		sudoku(board, 0, 0);
 		
