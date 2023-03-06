@@ -18,6 +18,7 @@ public class CombinationOfPhoneNumber {
 		else {
 			String c = arr[str.charAt(0) - '0']; //to get that particular value
 			for(int i=0; i<c.length(); i++) {
+				
 				keypadCombination(str.substring(1), ans + c.charAt(i), list);
 			}
 			

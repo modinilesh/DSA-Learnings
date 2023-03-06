@@ -45,10 +45,11 @@ public class TailRecursion {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println( sumN(5) );
-		System.out.println( fact(5) );
-		System.out.println( power(5, 0) );
-		fib(1, 1, 5);
+//		System.out.println( sumN(5) );
+//		System.out.println( fact(5) );
+//		System.out.println( power(5, 0) );
+		//fib(1, 1, 5);
+		
 		
 	}
 

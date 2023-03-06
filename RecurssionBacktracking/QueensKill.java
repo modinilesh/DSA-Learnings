@@ -92,14 +92,14 @@ public static void nQueenKill2(boolean[][]board, int j, int qpsf, int tq, String
 			return;
 		}
 		if(j >= board[0].length) {
-			j = 0;
+			return;
 		}
 		else {
 			
 			//Place only if possible
 			if(isItPossible(board, qpsf, j)) {
 				board[qpsf][j] = true;
-				nQueenKill2(board, j, qpsf+1, tq, ans+"q"+"b"+j+" ");
+				nQueenKill2(board, 0, qpsf+1, tq, ans+"q"+"b"+j+" ");
 				board[qpsf][j] = false;
 			}
 			
