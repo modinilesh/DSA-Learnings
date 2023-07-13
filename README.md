@@ -49,4 +49,4 @@ I would like to express my gratitude to the instructors and mentors at Coding Bl
 
 ## Contact
 
-If you have any questions or want to connect, you can reach me via LinkedIn at [inkedin.com/in/nilesh-modi]. Thank you for visiting my GitHub repository!
+If you have any questions or want to connect, you can reach me via LinkedIn at [linkedin.com/in/nilesh-modi]. Thank you for visiting my GitHub repository!
